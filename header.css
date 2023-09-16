@@ -1,0 +1,254 @@
+
+.footer{
+    width: 100%; height: 50px; background-color: black; z-index:1000; position: fixed; margin-top: 585px; display: flex; align-items: center; justify-content: space-around; display: none;
+}
+iframe{
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+}
+.logo{
+    width:100px; 
+    border-radius:50%;
+}
+.inp_search{
+    height: 40px; width:60%;
+    /* border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px;  */
+    /* border: none;  */
+    border: 1px solid lightgrey;
+     padding-left: 10px;
+     border-left: none;
+    /* border-right: none; */
+
+}
+.inp_search:focus,
+.inp_search:active
+{
+    height: 40px; width:60%;
+    /* border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px;  */
+    /* border: none;  */
+    /* border: 1px solid lightgrey; */
+    border: 1px solid transparent;
+     padding-left: 10px;
+     border-left:1px solid transparent;
+    /* border-right: none; */
+
+}
+.search_icon1{
+    height: 40px; 
+    border: 1px solid lightgrey;
+    border-right: none;
+
+    /* border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;  */
+     border-top-left-radius: 20px; 
+     border-bottom-left-radius: 20px;
+     background-color: white;
+      /* border: none;  */
+}
+.search_icon{
+    height: 40px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;  border: none;  border: 1px solid lightgrey;
+}
+.micro_icon{
+    height: 35px; width: 35px;  border: none;  border: 1px solid lightgrey; border-radius: 50%;
+}
+.profile{
+    width:25px; border-radius: 50%;
+}
+.fa-bars{
+    /* display:none; */
+    font-size: 18px;
+}
+
+.footer_icon{
+    color: black;
+}
+@media screen and (max-width: 360.98px) {
+    .footer{
+        width: 100%; height: 50px; background-color:white; z-index:1000; position: fixed; margin-top: 610px; display: flex; align-items: center; justify-content: space-around;  font-size: 15px;
+        /* display: block; */
+    }
+
+    iframe{
+        border-radius: 10px;
+        height: 150px;
+        width: 100%;
+    }
+    .right_menu{
+        display: none;
+    }
+.fa-magnifying-glass{
+    font-size:11px;
+    /* padding-bottom:px; */
+}
+
+    .logo{
+        width:50px; 
+        border-radius:50%;
+    }
+    .inp_search{
+        height: 25px; width:50%; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border: none; padding-left: 10px; border: 1px solid lightgrey;
+    }
+    .search_icon{
+        height: 25px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;  border: none;  border: 1px solid lightgrey;
+        display: flex;align-items: center; justify-content: center;
+    }
+    .micro_icon{
+        height: auto;  border: none;  border: 1px solid lightgrey; border-radius: 50%;
+    }
+    .profile{
+        width:20px; border-radius: 50%;
+    }
+    .fa-video{
+        font-size: 15px;
+    }
+    .fa-bell{
+        font-size: 15px;
+
+    }
+    .fa-bars{
+        display:none;
+        font-size: 0px;
+        /* margin-top: 0px; */
+        /* font-size: 10px; */
+    }
+    .pk{
+        /* display: none; */
+        font-size: 8px;
+    }
+/* Your CSS styles for extra small devices go here */
+}
+@media screen and (min-width:360px) and (max-width: 576px) {
+    .footer{
+        width: 100%; height: 50px; background-color:white; z-index:1000; position: fixed; margin-top: 610px; display: flex; align-items: center; justify-content: space-around;  font-size: 20px;
+        /* display: block; */
+    }
+    /* iframe{
+        border-radius: 10px;
+        height: 200px;
+        width: 100%;
+    } */
+    .right_menu{
+        display: none;
+    }
+    .fa-magnifying-glass{
+        font-size:11px;
+        /* padding-bottom:px; */
+    }
+    
+        .logo{
+            width:50px; 
+            border-radius:50%;
+        }
+        .inp_search{
+            height: 25px; width:60%; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border: none; padding-left: 10px; border: 1px solid lightgrey;
+        }
+        .search_icon{
+            height: 25px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;  border: none;  border: 1px solid lightgrey;
+            display: flex;align-items: center; justify-content: center;
+        }
+        .micro_icon{
+            height: auto;  border: none;  border: 1px solid lightgrey; border-radius: 50%;
+        }
+        .profile{
+            width:20px; border-radius: 50%;
+        }
+        .fa-video{
+            font-size: 15px;
+        }
+        .fa-bell{
+            font-size: 15px;
+    
+        }
+        .fa-bars{
+            display:none;
+            font-size: 0px;
+            /* margin-top: 0px; */
+            /* font-size: 10px; */
+        }
+        .pk{
+            /* display: none; */
+            font-size: 8px;
+        }
+/* Your CSS styles for small devices go here */
+
+}
+ @media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .footer{
+        width: 100%; height: 50px; background-color:white; z-index:1000; position: fixed; margin-top: 610px; display: flex; align-items: center; justify-content: space-around;  font-size: 20px;
+        /* display: block; */
+    }
+    .right_menu{
+        display: none;
+    }
+    .fa-magnifying-glass{
+        font-size:11px;
+        /* padding-bottom:px; */
+    }
+    
+        .logo{
+            width:50px; 
+            border-radius:50%;
+        }
+        .inp_search{
+            height: 25px; width:60%; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border: none; padding-left: 10px; border: 1px solid lightgrey;
+        }
+        .search_icon{
+            height: 25px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;  border: none;  border: 1px solid lightgrey;
+            display: flex;align-items: center; justify-content: center;
+        }
+        .micro_icon{
+            height: auto;  border: none;  border: 1px solid lightgrey; border-radius: 50%;
+        }
+        .profile{
+            width:20px; border-radius: 50%;
+        }
+        .fa-video{
+            font-size: 15px;
+        }
+        .fa-bell{
+            font-size: 15px;
+    
+        }
+        .fa-bars{
+            display:none;
+            font-size: 0px;
+            /* margin-top: 0px; */
+            /* font-size: 10px; */
+        }
+        .pk{
+            /* display: none; */
+            font-size: 8px;
+        }
+/* Your CSS styles for small devices go here */
+
+}
+ @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .footer{
+        width: 100%; height: 50px; background-color:white; z-index:1000; position: fixed; margin-top: 610px; display: flex; align-items: center; justify-content: space-around;  font-size: 20px;
+        /* display: block; */
+    }
+    .right_menu{
+        display: none;
+    }
+/* Your CSS styles for small devices go here */
+
+}
+ @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+/* Your CSS styles for small devices go here */
+
+}
+ @media screen and (min-width: 1200px){
+/* Your CSS styles for small devices go here */
+
+}
+  @media screen and (orientation: landscape) {
+/* Your CSS styles for landscape orientation go here */
+
+}
+ @media screen and (orientation: portrait) {
+/* Your CSS styles for portrait orientation go here */
+
+ }
